@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  myjavaimage:
+    image: javaimage  # Replace with the actual name of your Java image
+    container_name: aws
+    ports:
+      - "8082:8082"   # Expose the port your Java application is running on inside the container
